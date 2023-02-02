@@ -1,0 +1,31 @@
+\hypertarget{userprofile_8php}{}\doxysection{views/userprofile.php File Reference}
+\label{userprofile_8php}\index{views/userprofile.php@{views/userprofile.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{userprofile_8php_a0f72f0fd5445ef8aaa7f5e6a48eb19d6}\label{userprofile_8php_a0f72f0fd5445ef8aaa7f5e6a48eb19d6}} 
+{\bfseries \$conection} = get\+DB()
+\item 
+\mbox{\hyperlink{userprofile_8php_a567475e9c1507caa641708d29ac8b24e}{if}} (isset( \$\+\_\+\+POST\mbox{[} \textquotesingle{}remove\textquotesingle{}\mbox{]}))
+\item 
+\mbox{\hyperlink{userprofile_8php_a665a19d7136f04a2363bcf560ce1c701}{if}} (isset( \$\+\_\+\+POST\mbox{[} \textquotesingle{}submit\textquotesingle{}\mbox{]}))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Archivo que maneja la eliminación y la autenticación de usuarios. 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{userprofile_8php_a567475e9c1507caa641708d29ac8b24e}\label{userprofile_8php_a567475e9c1507caa641708d29ac8b24e}} 
+\index{userprofile.php@{userprofile.php}!if@{if}}
+\index{if@{if}!userprofile.php@{userprofile.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily if(isset(\$\+\_\+\+POST\mbox{[}\textquotesingle{}remove\textquotesingle{}\mbox{]})) (\begin{DoxyParamCaption}\item[{isset( \$\+\_\+\+POST\mbox{[} \textquotesingle{}remove\textquotesingle{}\mbox{]})}]{ }\end{DoxyParamCaption})}
+
+Verifica si se ha enviado una solicitud de eliminación de evento. En caso afirmativo, se eliminan los datos del evento y sus participantes. \mbox{\Hypertarget{userprofile_8php_a665a19d7136f04a2363bcf560ce1c701}\label{userprofile_8php_a665a19d7136f04a2363bcf560ce1c701}} 
+\index{userprofile.php@{userprofile.php}!if@{if}}
+\index{if@{if}!userprofile.php@{userprofile.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily if(isset(\$\+\_\+\+POST\mbox{[}\textquotesingle{}submit\textquotesingle{}\mbox{]})) (\begin{DoxyParamCaption}\item[{isset( \$\+\_\+\+POST\mbox{[} \textquotesingle{}submit\textquotesingle{}\mbox{]})}]{ }\end{DoxyParamCaption})}
+
+Verifica si se ha enviado una solicitud de inicio de sesión. En caso afirmativo, verifica la autenticidad del usuario y establece la cookie correspondiente. 

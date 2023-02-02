@@ -1,0 +1,28 @@
+\hypertarget{login_8php}{}\doxysection{views/login.php File Reference}
+\label{login_8php}\index{views/login.php@{views/login.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{login_8php_a737dda3899862dc3ea83224bd72b99e8}{if}} (isset(\$\+\_\+\+POST\mbox{[} \textquotesingle{}submit\textquotesingle{}\mbox{]}))
+\item 
+\mbox{\hyperlink{login_8php_a0a4e2b80e6d6f18dff54e0a02a78e5a7}{if}} (isset(\$\+\_\+\+COOKIE\mbox{[} \textquotesingle{}user\+Data\textquotesingle{}\mbox{]}))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Inicio de sesión de los usuarios y añade usuarios a la tabla users si viene de signup 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{login_8php_a0a4e2b80e6d6f18dff54e0a02a78e5a7}\label{login_8php_a0a4e2b80e6d6f18dff54e0a02a78e5a7}} 
+\index{login.php@{login.php}!if@{if}}
+\index{if@{if}!login.php@{login.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily if(isset( \$\+\_\+\+COOKIE\mbox{[}\textquotesingle{}user\+Data\textquotesingle{}\mbox{]})) (\begin{DoxyParamCaption}\item[{isset(\$\+\_\+\+COOKIE\mbox{[} \textquotesingle{}user\+Data\textquotesingle{}\mbox{]})}]{ }\end{DoxyParamCaption})}
+
+Si existe la cookie se redirige al perfil \mbox{\Hypertarget{login_8php_a737dda3899862dc3ea83224bd72b99e8}\label{login_8php_a737dda3899862dc3ea83224bd72b99e8}} 
+\index{login.php@{login.php}!if@{if}}
+\index{if@{if}!login.php@{login.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily if(isset( \$\+\_\+\+POST\mbox{[}\textquotesingle{}submit\textquotesingle{}\mbox{]})) (\begin{DoxyParamCaption}\item[{isset(\$\+\_\+\+POST\mbox{[} \textquotesingle{}submit\textquotesingle{}\mbox{]})}]{ }\end{DoxyParamCaption})}
+
+Si existe un \$\+\_\+\+POST, se conecta a la base de datos Se crea un array con los valores del formulario Se hace la consulta Se bindean los valores Se ejecuta la consulta 

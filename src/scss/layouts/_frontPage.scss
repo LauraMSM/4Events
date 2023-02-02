@@ -1,0 +1,82 @@
+.main-header {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &::before {
+        content: '';
+        background-image: url(../../public/img/BG-Header.jpg);
+        width: 95%;
+        height: 95%;
+        @include absoluteCenter;
+        z-index: -3;
+        box-shadow: $box-shadow-sm;
+    }
+    
+    &__h1 {
+        color: $rd-color;
+        font-size: calc(3rem + 5vw);
+    }
+    
+    &__h2 {
+        color: $th-color;
+        font-size: calc(1rem + 3vw);
+    }
+
+    &__nav {
+        width: calc(3rem + 3vw);
+        height: calc(3rem + 1.5vw);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30%;
+        position: absolute;
+        top: 5%;
+        right: calc((3rem + 2vw) + 5%);
+
+        &__a {
+            font-family: $subtitle-font;
+            font-size: calc(1rem + 0.5vw);
+            padding: 0.25em 0.5em;
+            transition: 0.35s;
+
+            &:hover {
+                color: $rd-color;
+            }
+
+            &--white {
+                background-color: $rd-color;
+                color: $main-color;
+                border-radius: $br-md;
+                
+                &:hover {
+                    background-color: $nd-color;
+                    color: $st-color;
+                }
+            }
+        }
+    }
+
+    .social {
+        width: min(80%, 60rem);
+        display: inline-flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 5%;
+
+        &__item {
+            font-size: calc(1rem + 1vw);
+            padding: 0.5em;
+            transition: 0.35s;
+
+            &:hover {
+                color: $rd-color;
+            }
+        }
+    }
+}

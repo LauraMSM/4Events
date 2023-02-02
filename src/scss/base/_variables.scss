@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../../public/fonts/BebasNeuePro.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url(../../public/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../../public/fonts/Montserrat-Regular.ttf);
+}
+
+
+$main-color: #1D1D1D;
+$st-color: #ececec;
+$nd-color: #303030;
+$rd-color: #E4EE52;
+$th-color: #DCDCDC;
+
+$title-font: 'Bebas Neue';
+$subtitle-font: 'Montserrat SemiBold';
+$body-font: 'Montserrat Regular';
+
+$margin-sm: calc(1rem + 1vw);
+$margin-md: calc(1rem + 3vw);
+
+$box-shadow-sm: 1px 3px 5px #1f1f1f;
+
+$br-md: 3px;

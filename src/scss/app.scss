@@ -1,0 +1,11 @@
+@import "./base/variables.scss";
+@import "./base/reset.scss";
+@import "./base/mixins.scss";
+
+@import "./layouts/frontPage.scss";
+@import "./layouts/login.scss";
+@import "./layouts/events.scss";
+@import "./layouts/profile.scss";
+@import "./layouts/404.scss";
+
+@import "./components/menu.scss";

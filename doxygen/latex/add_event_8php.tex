@@ -1,0 +1,34 @@
+\hypertarget{add_event_8php}{}\doxysection{views/add\+Event.php File Reference}
+\label{add_event_8php}\index{views/addEvent.php@{views/addEvent.php}}
+
+
+Este archivo contiene el formulario para crear un nuevo evento. Si el usuario no ha iniciado sesión, se redirigirá a la página de inicio de sesión.  
+
+
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+if(isset(\$\+\_\+\+COOKIE\mbox{[}\textquotesingle{}user\+Data\textquotesingle{}\mbox{]})) \mbox{\hyperlink{add_event_8php_a8dd1229870a6ccef3c95d008e588ba94}{else}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este archivo contiene el formulario para crear un nuevo evento. Si el usuario no ha iniciado sesión, se redirigirá a la página de inicio de sesión. 
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{add_event_8php_a8dd1229870a6ccef3c95d008e588ba94}\label{add_event_8php_a8dd1229870a6ccef3c95d008e588ba94}} 
+\index{addEvent.php@{addEvent.php}!else@{else}}
+\index{else@{else}!addEvent.php@{addEvent.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if (isset( \$\+\_\+\+COOKIE\mbox{[} \textquotesingle{}user\+Data\textquotesingle{}\mbox{]})) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ Header(\textcolor{stringliteral}{'Location:\ login'})}
+
+\end{DoxyCode}
+Verifica si el usuario ha iniciado sesión 

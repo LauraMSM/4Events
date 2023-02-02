@@ -1,0 +1,27 @@
+\hypertarget{front_page_8php}{}\doxysection{views/front\+Page.php File Reference}
+\label{front_page_8php}\index{views/frontPage.php@{views/frontPage.php}}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{front_page_8php_a138886d558f9f0f44abe7f95390d571a}{\$conection}} = get\+DB()
+\item 
+\mbox{\Hypertarget{front_page_8php_a117fceaa9c4f3e1dc23ea6b2893f336b}\label{front_page_8php_a117fceaa9c4f3e1dc23ea6b2893f336b}} 
+{\bfseries if} (isset( \$\+\_\+\+POST\mbox{[} \textquotesingle{}edit\textquotesingle{}\mbox{]}))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este archivo es para editar la información del usuario en la base de datos. Primero se incluye la conexión a la base de datos con la función get\+DB(). Luego, si se ha recibido la variable \textquotesingle{}edit\textquotesingle{} en el método POST, se actualiza la información del usuario en la base de datos. Finalmente, se incluyen los componentes head, menu, header y footer en la página. 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{front_page_8php_a138886d558f9f0f44abe7f95390d571a}\label{front_page_8php_a138886d558f9f0f44abe7f95390d571a}} 
+\index{frontPage.php@{frontPage.php}!\$conection@{\$conection}}
+\index{\$conection@{\$conection}!frontPage.php@{frontPage.php}}
+\doxysubsubsection{\texorpdfstring{\$conection}{$conection}}
+{\footnotesize\ttfamily PDO \$conection = get\+DB()}
+
+Conexión a la base de datos. Sección de perfil del usuario autenticado.
+
+Consulta los eventos relacionados al usuario autenticado.
+
+Despliega los eventos relacionados al usuario autenticado.

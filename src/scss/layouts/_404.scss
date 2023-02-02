@@ -1,0 +1,18 @@
+.section--404 {
+    background: $main-color;
+
+    & h2 {
+        color: $th-color;
+        font-size: calc(5rem + 15vw);
+        @include absoluteCenter;
+    }
+    
+    & h3 {
+        color: $rd-color;
+        font-size: calc(1rem + 1vw);
+        text-align: center;
+        width: 100%;
+        @include absoluteCenter;
+        top: 75%;
+    }
+}

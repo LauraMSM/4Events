@@ -1,0 +1,62 @@
+.section {
+    background-image: url(../../public/img/BG-Section.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    @include absoluteCenter;
+
+    &__h2 {
+        color: $rd-color;
+        font-size: calc(2rem + 2vw);
+        text-align: center;
+        padding: $margin-sm 0;
+    }
+    
+    & form {
+        width: min(80%, 50rem);
+        height: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em 0;
+        
+        & input {
+            background-color: #33333398;
+            font-size: calc(1rem + 0.5vw);
+            width: 100%;
+            padding: 0.5em;
+            border: 1px solid $st-color;
+            border-radius: $br-md;
+            backdrop-filter: blur(3px);
+            
+            &:focus {
+                background-color: #ececec77;
+                border: 1px solid $rd-color;
+            }
+            
+        }
+        
+        & button {
+            background-color: $rd-color;
+            color: $main-color;
+            font-family: $subtitle-font;
+            font-size: calc(1rem + 0.5vw);
+            width: 100%;
+            padding: 0.5em;
+            border-radius: $br-md;
+        }
+    }
+    
+    .signin-link {
+        color: $st-color;
+        font-size: calc(0.75rem + 0.5vw);
+        text-shadow: 1px 1px $main-color, 0px 0px 1px $main-color;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

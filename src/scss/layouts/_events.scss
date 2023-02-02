@@ -1,0 +1,32 @@
+.section--events {
+    background-image: url(../../public/img/BG-Events.jpg);
+    box-shadow: $box-shadow-sm;
+
+    .section__h2 {
+        font-size: calc(2rem + 2vw);
+        padding: $margin-sm 0;
+    }  
+    
+    .events {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+
+        .event {
+            background-color: $main-color;
+            text-align: center;
+            padding: 1em;
+            border-radius: 3px;
+            box-shadow: $box-shadow-sm;
+            line-height: 2em;
+
+            & h3 {
+                color: $rd-color;
+                text-shadow: 1px 1px rgb(15, 15, 15);
+            }
+        }
+    }
+}
