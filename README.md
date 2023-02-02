@@ -1,6 +1,6 @@
 <h1>4 EVENTS</h1>
 
-<img src="https://user-images.githubusercontent.com/72264358/216473174-7e6e0f05-b2b3-4e5f-aed3-f1c48a386817.png" styles="text-align: center;"/>
+<img src="https://user-images.githubusercontent.com/72264358/216473174-7e6e0f05-b2b3-4e5f-aed3-f1c48a386817.png" style="text-align: center;"/>
 
 
 
