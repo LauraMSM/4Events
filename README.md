@@ -1,6 +1,6 @@
 <h1>4 EVENTS</h1>
 
-![Captura de pantalla 2023-02-02 231433](https://user-images.githubusercontent.com/72264358/216473174-7e6e0f05-b2b3-4e5f-aed3-f1c48a386817.png)
+<h2>![Captura de pantalla 2023-02-02 231433](https://user-images.githubusercontent.com/72264358/216473174-7e6e0f05-b2b3-4e5f-aed3-f1c48a386817.png)</h2>
 
 
 
