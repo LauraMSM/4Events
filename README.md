@@ -57,7 +57,7 @@ El proyecto sigue en desarrollo. Falta implementar algunas funcionalidades compl
 
 ## Acceso al proyecto
 
-El proyecto está alojado en heroku.
+El proyecto está alojado en <a href="https://fourevents.herokuapp.com">Heroku</a>.
 
 
 
