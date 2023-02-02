@@ -1,6 +1,6 @@
 <h1>4 EVENTS</h1>
 
-![image-20230202112339910](C:\Users\laums\AppData\Roaming\Typora\typora-user-images\image-20230202112339910.png)
+![image-20230202112339910](![Captura de pantalla 2023-02-02 231433](https://user-images.githubusercontent.com/72264358/216473174-7e6e0f05-b2b3-4e5f-aed3-f1c48a386817.png))
 
 
 
